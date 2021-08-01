@@ -1,0 +1,7 @@
+package com.example.appstudy.recycler
+
+data class Memo(
+    var no : Int,
+    var title : String,
+    var timestamp : Long
+)
