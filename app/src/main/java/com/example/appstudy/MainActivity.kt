@@ -38,18 +38,18 @@ class MainActivity : AppCompatActivity() {
         /**리사이클러뷰**/
         binding.btnRecyclerView.setOnClickListener{
             val intent = Intent(this,RecyclerViewActivity::class.java)
-            startActivity(intent)
+            goActivity(intent)
         }
 
         /**프래그먼트**/
         binding.btnFragment.setOnClickListener {
             val intent = Intent(this, FragmentActivity::class.java)
-            startActivity(intent)
+            goActivity(intent)
         }
         /**프래그먼트 리시브**/
         binding.btnFragmentRecv.setOnClickListener {
             val intent = Intent(this,FragmentReceiverActivity::class.java)
-            startActivity(intent)
+            goActivity(intent)
         }
     }
 
@@ -62,5 +62,9 @@ class MainActivity : AppCompatActivity() {
         }else{
             Log.d("TestValue", "실패")
         }
+    }
+
+    fun goActivity(intent : Intent){
+        startActivity(intent)
     }
 }
