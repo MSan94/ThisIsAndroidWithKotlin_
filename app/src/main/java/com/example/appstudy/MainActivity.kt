@@ -51,6 +51,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,FragmentReceiverActivity::class.java)
             goActivity(intent)
         }
+        binding.btnCustomView.setOnClickListener {
+            val intent = Intent(this,CustomViewActivity::class.java)
+            goActivity(intent)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

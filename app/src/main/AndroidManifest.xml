@@ -20,6 +20,7 @@
         <activity android:name=".RecyclerViewActivity"/>
         <activity android:name=".FragmentActivity"/>
         <activity android:name=".FragmentReceiverActivity"/>
+        <activity android:name=".CustomViewActivity"/>
     </application>
 
 </manifest>
