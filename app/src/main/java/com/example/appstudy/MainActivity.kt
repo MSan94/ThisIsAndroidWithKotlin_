@@ -51,9 +51,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,FragmentReceiverActivity::class.java)
             goActivity(intent)
         }
+        /**커스텀뷰**/
         binding.btnCustomView.setOnClickListener {
             val intent = Intent(this,CustomViewActivity::class.java)
             goActivity(intent)
+        }
+        /**뷰페이저**/
+        binding.btnViewPager.setOnClickListener {
+            val intent = Intent(this,ViewPagerActivity::class.java)
+            startActivity(intent)
         }
     }
 

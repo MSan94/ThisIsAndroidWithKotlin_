@@ -59,6 +59,15 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:id="@+id/btn_ViewPager"
+        android:text="뷰페이저"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_CustomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
         android:id="@+id/btn_Move"
         android:text="화면전환"
         app:layout_constraintStart_toStartOf="parent"
