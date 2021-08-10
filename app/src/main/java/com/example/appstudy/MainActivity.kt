@@ -61,6 +61,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,ViewPagerActivity::class.java)
             startActivity(intent)
         }
+        /**뷰를 이용한 뷰페이저**/
+        binding.btnViewPagerView.setOnClickListener {
+            val intent = Intent(this, ViewPagerViewActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
