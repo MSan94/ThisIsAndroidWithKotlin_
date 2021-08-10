@@ -66,6 +66,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ViewPagerViewActivity::class.java)
             startActivity(intent)
         }
+        /** 권한 **/
+        binding.btnPermission.setOnClickListener {
+            val intent = Intent(this, PermissionActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
