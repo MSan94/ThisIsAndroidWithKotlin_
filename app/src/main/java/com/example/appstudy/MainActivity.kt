@@ -71,6 +71,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PermissionActivity::class.java)
             startActivity(intent)
         }
+        /** BaseActivity **/
+        binding.btnBase.setOnClickListener {
+            val intent = Intent(this, UseBaseActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
