@@ -76,6 +76,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, UseBaseActivity::class.java)
             startActivity(intent)
         }
+        /** Preferences **/
+        binding.btnPref.setOnClickListener {
+            val intent = Intent(this, PreferencesActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

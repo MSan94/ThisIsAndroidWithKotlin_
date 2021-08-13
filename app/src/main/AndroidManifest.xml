@@ -27,6 +27,7 @@
         <activity android:name=".ViewPagerViewActivity"/>
         <activity android:name=".PermissionActivity"/>
         <activity android:name=".UseBaseActivity"/>
+        <activity android:name=".PreferencesActivity"/>
     </application>
 
 </manifest>
