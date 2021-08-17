@@ -81,6 +81,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PreferencesActivity::class.java)
             startActivity(intent)
         }
+        
+        /** 스레드와 코루틴 **/
+        binding.btnThread.setOnClickListener {
+            val intent = Intent(this, ThreadActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

@@ -28,6 +28,7 @@
         <activity android:name=".PermissionActivity"/>
         <activity android:name=".UseBaseActivity"/>
         <activity android:name=".PreferencesActivity"/>
+        <activity android:name=".ThreadActivity"/>
     </application>
 
 </manifest>
