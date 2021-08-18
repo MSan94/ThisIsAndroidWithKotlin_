@@ -31,6 +31,8 @@
         <activity android:name=".PreferencesActivity"/>
         <activity android:name=".ThreadActivity"/>
         <activity android:name=".CoroutineActivity"/>
+        <activity android:name=".ServiceActivity"/>
+        <service android:name=".service.MyService"/>
     </application>
 
 </manifest>

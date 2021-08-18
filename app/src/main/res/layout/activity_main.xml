@@ -122,6 +122,15 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:id="@+id/btn_Service"
+        android:text="서비스"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Coroutine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
         android:id="@+id/btn_Move"
         android:text="화면전환"
         app:layout_constraintStart_toStartOf="parent"

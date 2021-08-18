@@ -93,6 +93,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, CoroutineActivity::class.java)
             startActivity(intent)
         }
+
+        /** 서비스 **/
+        binding.btnService.setOnClickListener {
+            val intent = Intent(this, ServiceActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
