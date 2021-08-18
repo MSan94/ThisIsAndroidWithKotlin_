@@ -82,9 +82,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         
-        /** 스레드와 코루틴 **/
+        /** 스레드와 루퍼 핸들러 **/
         binding.btnThread.setOnClickListener {
             val intent = Intent(this, ThreadActivity::class.java)
+            startActivity(intent)
+        }
+        
+        /** 코루틴 **/
+        binding.btnCoroutine.setOnClickListener {
+            val intent = Intent(this, CoroutineActivity::class.java)
             startActivity(intent)
         }
     }

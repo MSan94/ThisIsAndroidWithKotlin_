@@ -3,6 +3,7 @@
     package="com.example.appstudy">
 
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -29,6 +30,7 @@
         <activity android:name=".UseBaseActivity"/>
         <activity android:name=".PreferencesActivity"/>
         <activity android:name=".ThreadActivity"/>
+        <activity android:name=".CoroutineActivity"/>
     </application>
 
 </manifest>
